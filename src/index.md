@@ -11,7 +11,10 @@ Voici mon test de prod !
 
 J’aime beaucoup Valentina
 
+Magnifique, le lien d'invitation est bien redirigé par le client !!
+
 <!-- Redirection pour les liens d'invitation Netlify -> renvoie vers /admin en gardant les paramètres -->
+
 <script>
 (function () {
   var q = (location.search || '') + (location.hash || '');
