@@ -5,7 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "npx concurrently \"npx @11ty/eleventy --serve\" \"npx decap-server --config src/admin/config.yml --watch\""
+    "start:dev": "npx concurrently \"npx @11ty/eleventy --serve\" \"npx decap-server --config src/admin/config.yml --watch\"",
+    "build": "npx @11ty/eleventy --quiet"
   },
   "repository": {
     "type": "git",
