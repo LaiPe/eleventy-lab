@@ -1,12 +1,11 @@
 {
   "name": "eleventy-lab",
   "version": "1.0.0",
-  "description": "Environnement de test dans le cadre de mon apprentissage de Eleventy",
-  "main": "index.js",
+  "description": "",
+  "main": ".eleventy.js",
   "scripts": {
-    "build": "eleventy",
-    "dev": "eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx concurrently \"npx @11ty/eleventy --serve\" \"npx decap-server --config src/admin/config.yml --watch\""
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/LaiPe/eleventy-lab/issues"
   },
